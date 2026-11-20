@@ -7,6 +7,9 @@
   <meta name="theme-color" content="#fcf3ed">
   <title>kate li — published</title>
   <link rel="icon" type="image/svg+xml" href="assets/portrait.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -38,16 +41,17 @@
 
        <article class="work-entry">
          <div class="work-visual">
-           <div><img class="artwork" src="assets/categorizations.png" loading="lazy"></div>
-           <dl class="work-meta">
+           <div><img class="artwork" src="assets/categorizations.png" alt="Campaign contributions grouped by industry" loading="lazy"></div>
+         </div>
+        <div class="work-copy">
+          <p class="publication">CalMatters (Voter Guide; Politics; Show Your Work)</p>
+          <h3>money in politics</h3>
+          <p>categorized industries that spent $900mn in CA's 2026 election cycle (built a ML classifier; debated what an industry is).</p>
+          <p>featured in 14 pages of CalMatter's 2026 Voter Guide; enabled political reporting; methodology published by CalMatters. </p>
+          <dl class="work-meta">
              <div><dt>duration</dt><dd>6+ months</dd></div>
              <div><dt>scope</dt><dd>ML, data acquisition </dd></div>
            </dl>
-         </div>
-        <div class="work-copy">
-          <h3>money in politics</h3>
-          <p>categorized industries that spent $900mn in CA's 2026 election cycle (built a ML classifier; debated what an industry is).</p>
-          <p>featured in 14 pages of CalMatter's 2026 Voter Guide; enabled political reporting; methodology published by CalMatters. <em>CalMatters (Voter Guide; Politics; Show Your Work)</em></p>
           <div class="work-links">
             <a href="https://calmatters.org/california-voter-guide-2026/proposition-40-billionaire-tax/">
               <img src="assets/arrow-up-right.svg" alt="" width="16" height="16"> Voter Guide</a>
@@ -59,15 +63,16 @@
 
       <article class="work-entry">
         <div class="work-visual">
-          <div><img class="artwork" src="assets/science_clip.jpeg" loading="lazy"></div>
+          <div><img class="artwork" src="assets/science_clip.jpeg" alt="The science reporting on delays at an animal disease laboratory" loading="lazy"></div>
+        </div>
+        <div class="work-copy">
+          <p class="publication">Science (Insider, print)</p>
+          <h3>science stalling</h3>
+          <p>reported on delays in critical science research (noticed a data anomaly).</p>
           <dl class="work-meta">
             <div><dt>duration</dt><dd>1 month</dd></div>
             <div><dt>scope</dt><dd>reporting</dd></div>
           </dl>
-        </div>
-        <div class="work-copy">
-          <h3>science stalling</h3>
-          <p>reported on delays in critical science research (noticed a data anomaly).<em> Science (Insider, print)</em></p>
           <div class="work-links">
             <a href="https://www.science.org/content/article/massive-new-animal-disease-lab-kansas-runs-more-delays?referrer=https%3A%2F%2Fwww.google.com%2F"><img src="assets/arrow-up-right.svg" alt="" width="16" height="16"> Delays in lab</a>
           </div>
@@ -75,15 +80,16 @@
       </article>
       <article class="work-entry">
         <div class="work-visual">
-          <div><img class="artwork" src="assets/self_funding.png" loading="lazy"></div>
+          <div><img class="artwork" src="assets/self_funding.png" alt="Campaign finance graphic showing candidate self funding" loading="lazy"></div>
+        </div>
+        <div class="work-copy">
+          <p class="publication">CalMatters (Politics)</p>
+          <h3>campaign finance</h3>
+          <p>showed record-breaking levels of self funding in politics (crunched numbers to gut-check hypotheses).</p>
           <dl class="work-meta">
             <div><dt>duration</dt><dd>1 month</dd></div>
             <div><dt>skills</dt><dd>data, graphics</dd></div>
           </dl>
-        </div>
-        <div class="work-copy">
-          <h3>campaign finance</h3>
-          <p>showed record-breaking levels of self funding in politics (crunched numbers to gut-check hypotheses).<em> CalMatters (Politics)</em></p>
           <div class="work-links">
             <a href="https://calmatters.org/politics/2026/06/california-rich-candidates-funding-elections/"><img src="assets/arrow-up-right.svg" alt="" width="16" height="16"> Self funding</a>
           </div>
@@ -96,15 +102,16 @@
 
       <article class="work-entry">
         <div class="work-visual">
-          <div><img class="artwork" src="assets/homekey.png" loading="lazy"></div>
+          <div><img class="artwork" src="assets/homekey.png" alt="Graphic showing delays in Homekey housing implementation" loading="lazy"></div>
+        </div>
+        <div class="work-copy">
+          <p class="publication">CalMatters (Investigations).</p>
+          <h3>dysfunctional housing</h3>
+          <p>visualized delays in implementation of housing policy (quantified textual data, built custom graphics). </p>
           <dl class="work-meta">
             <div><dt>duration</dt><dd>1 month</dd></div>
             <div><dt>scope</dt><dd>graphics</dd></div>
           </dl>
-        </div>
-        <div class="work-copy">
-          <h3>dysfunctional housing</h3>
-          <p>visualized delays in implementation of housing policy (quantified textual data, built custom graphics). <em> CalMatters (Investigations). </em></p>
           <div class="work-links">
             <a href="https://calmatters.org/housing/2026/05/newsom-homekey-records/"><img src="assets/arrow-up-right.svg" alt="" width="16" height="16"> Homekey delays</a>
             <a href="https://github.com/CalMatters/data-homekey"><img src="assets/github.svg" alt="" width="16" height="16"> Repo</a>
@@ -112,22 +119,7 @@
         </div>
       </article>
 
-      <article class="work-entry">
-        <div class="work-visual">
-          <div class="artwork artwork-placeholder" aria-hidden="true"><span>graphic<br>forthcoming</span></div>
-          <dl class="work-meta">
-            <div><dt>duration</dt><dd>3 month</dd></div>
-            <div><dt>scope</dt><dd>text mining; data; graphics </dd></div>
-          </dl>
-        </div>
-        <div class="work-copy">
-          <h3><em>publication forthcoming</em></h3>
-          <p>check back in <strong>dec 2026</strong> for an investigation in CA's legal system. <em>CalMatters (Investigations).</em></p>
-          <div class="work-links">
-            <span class="link-placeholder"><img src="assets/arrow-up-right.svg" alt="" width="16" height="16"> article link forthcoming</span>
-          </div>
-        </div>
-      </article>
+
     </section>
 
     <section class="work-section" aria-labelledby="empowering-readers">
@@ -135,16 +127,17 @@
 
       <article class="work-entry">
         <div class="work-visual">
-          <div><img class="artwork" src="assets/2026-vg-logo-final.svg" loading="lazy"></div>
+          <div><img class="artwork" src="assets/2026-vg-logo-final.svg" alt="CalMatters 2026 Voter Guide" loading="lazy"></div>
+        </div>
+        <div class="work-copy">
+          <p class="publication">CalMatters (Voter Guide, Show Your Work)</p>
+          <h3>ballot lookup</h3>
+          <p>built a tool to show all your local elections, based on address. (filed lots of PRAs; collected many maps).</p>
+          <p>new feature in CalMatters' 2026 Voter Guide; methodology published. </p>
           <dl class="work-meta">
             <div><dt>duration</dt><dd>2+ months</dd></div>
             <div><dt>scope</dt><dd>geospatial analysis; reporting</dd></div>
           </dl>
-        </div>
-        <div class="work-copy">
-          <h3>ballot lookup</h3>
-          <p>built a tool to show all your local elections, based on address. (filed lots of PRAs; collected many maps).</p> 
-          <p>new feature in CalMatters' 2026 Voter Guide; methodology published. <em>CalMatters (Voter Guide, Show Your Work)</em></p>
           <div class="work-links">
             <a href="https://calmatters.org/california-voter-guide-2026/my-ballot/"><img src="assets/arrow-up-right.svg" alt="" width="16" height="16"> MyBallot</a>
             <a href="https://calmatters.org/california-voter-guide-2026/my-ballot-show-your-work/"><img src="assets/arrow-up-right.svg" alt="" width="16" height="16"> Show Your Work</a>
@@ -152,8 +145,41 @@
         </div>
       </article>
     </section>
+
+    <article class="work-entry forthcoming-entry">
+        <div class="work-visual">
+          <div class="artwork artwork-placeholder" aria-hidden="true"><span>graphic<br>forthcoming</span></div>
+        </div>
+        <div class="work-copy">
+          <p class="publication">CalMatters (Investigations).</p>
+          <h3><em>publication forthcoming</em></h3>
+          <p>check back in <strong>dec 2026</strong> for an investigation in CA's legal system. </p>
+          <dl class="work-meta">
+            <div><dt>duration</dt><dd>3 month</dd></div>
+            <div><dt>scope</dt><dd>text mining; data; graphics </dd></div>
+          </dl>
+          <div class="work-links">
+            <span class="link-placeholder"><img src="assets/arrow-up-right.svg" alt="" width="16" height="16"> article link forthcoming</span>
+          </div>
+        </div>
+      </article>
   </main>
 
-  <footer class="shell site-footer"><a href="./">kate li</a></footer>
+  <footer class="shell site-footer">
+    <a class="wordmark" href="./">kate li</a>
+    <nav class="contact-links" aria-label="Contact">
+      <a href="mailto:kateli@stanford.edu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>
+        email
+      </a>
+      <a href="https://github.com/kateli9">
+        <img src="assets/github.svg" alt="" width="18" height="18"> github
+      </a>
+      <a href="https://www.linkedin.com/in/kateli9/">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 3a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM3.3 9h3.4v12H3.3V9Zm6 0h3.3v1.6c.7-1.1 1.8-1.9 3.5-1.9 3.7 0 4.6 2.3 4.6 5.3v7h-3.4v-6.2c0-1.5 0-3.4-2.1-3.4s-2.5 1.6-2.5 3.3V21H9.3V9Z"/></svg>
+        linkedin
+      </a>
+    </nav>
+  </footer>
 </body>
 </html>
